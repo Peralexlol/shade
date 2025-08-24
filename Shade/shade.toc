@@ -1,0 +1,35 @@
+## Interface: 110000
+## Title: Shade - UI Skin Engine
+## Notes: Modern dark-first skin engine and native skinner for buttons, auras, tooltips, castbars, chat and more.
+## Author: Peralex
+## Version: 0.1.1
+## SavedVariables: ShadeDB
+## SavedVariablesPerCharacter: ShadeDBChar
+
+core/Core.lua
+core/Profiles.lua
+core/API.lua
+core/SkinEngine.lua
+
+ui/Widgets.lua
+ui/ConfigUI.lua
+
+skins/FlatDark.lua
+skins/Neon.lua
+skins/Glass.lua
+skins/ClassTint.lua
+
+modules/ActionButtons.lua
+modules/Auras.lua
+modules/Tooltips.lua
+modules/Castbar.lua
+modules/Chat.lua
+modules/Misc.lua
+modules/BlizzSkin.lua
+
+# example/Example_ThirdParty.lua  # commented to avoid load error if folder not included
+
+# Optional media (add these files to your package)
+# media/noise.tga
+# media/stripe.tga
+# media/fonts/Oxanium-ExtraBold.ttf
