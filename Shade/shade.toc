@@ -1,0 +1,36 @@
+## Interface: 110000
+## Interface: 110000
+## Title: Shade - UI Skin Engine
+## Notes: Full load with safeguards, core, and modules (all lowercase)
+## Author: Peralex
+## Version: 0.3.0
+## SavedVariables: ShadeDB
+## SavedVariablesPerCharacter: ShadeDBChar
+
+# --- Slash first (ensures /shade always works)
+core/slash.lua
+
+# --- Global safeguards (protects against bad Set*Texture calls)
+core/safe.lua
+
+# --- Core (modules expect const + registry)
+core/core.lua
+
+# --- UI foundation
+ui/widgets.lua
+ui/configui.lua
+
+# --- Modules (enable your full styling/behavior)
+modules/actionbuttons.lua
+modules/auras.lua
+modules/tooltips.lua
+modules/castbar.lua
+modules/chat.lua
+modules/misc.lua
+modules/blizzskin.lua
+
+# --- Optional themes (uncomment if these files exist)
+# neon.lua
+# glass.lua
+# flatdark.lua
+# classtint.lua
