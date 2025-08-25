@@ -1,0 +1,16 @@
+## Interface: 110002
+## Title: Shade - UI Skinning Engine
+## Notes: Modern dark-themed UI skinning engine for World of Warcraft
+## Author: Peralex
+## Version: 1.0.0
+## SavedVariables: ShadeDB
+## OptionalDeps: Ace3
+
+core/core.lua
+core/config.lua
+core/skinning.lua
+ui/mainframe.lua
+ui/panels.lua
+modules/actionbars.lua
+modules/profiles.lua
+shade.lua
